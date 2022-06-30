@@ -43,7 +43,7 @@ particles = xp.generate_matched_gaussian_bunch(_context=context,
 
 
 # 10 sigma to 0 sigma in adiabatic steps
-sigmas = np.linspace(sig20,0,0) 
+sigmas = np.linspace(sig1*20,0,100) 
 
 # empty arrays to save the tracking 
 x_s=[]
